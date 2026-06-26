@@ -40,7 +40,7 @@ export const CityTabs = ({ value, onChange }: CityTabsProps) => {
     <Tabs
       value={activeTab}
       onChange={handleTabChange}
-      variant="unstyled"
+      variant="default"
       className={styles.tabs}
     >
       <Tabs.List grow>
